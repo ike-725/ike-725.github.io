@@ -1,7 +1,7 @@
 var min = 0 ;
 var max = 4 ;
 
-var a = Math.floor (Math.random() * ( max + 1 - min ) )  + min ;
+//var a = Math.floor (Math.random() * ( max + 1 - min ) )  + min ;
 
 
 //console.log(a);
@@ -19,7 +19,8 @@ var thema=[
 
 //document.write(thema[a] + "<br>\n");
 
-var obj = document.getElementById("card")
+
 var a = Math.floor(Math.random() * thema.length);
+document.getElementById('card').innerHTML = '<img src="thema[a]">';
 //document.write(thema[a]);
 obj.src = thema[a];
