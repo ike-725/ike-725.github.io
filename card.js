@@ -19,5 +19,7 @@ var thema=[
 
 //document.write(thema[a] + "<br>\n");
 
+var obj = document.getElementById("card")
 var a = Math.floor(Math.random() * thema.length);
-document.write(thema[a]);
+//document.write(thema[a]);
+obj.src = thema[a];
