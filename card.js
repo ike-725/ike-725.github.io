@@ -10,11 +10,11 @@ var a = Math.floor (Math.random() * ( max + 1 - min ) )  + min ;
 
 
 var thema=[
-  "好きな男性のタイプは？",
-  "初恋の年齢は？",
-  "今までで一番楽しかったデートは？",
-  "今now好きな人はいる？",
-  "告白したい？されたい？"
+  '0.PNG',
+  '1.PNG',
+  '2.PNG',
+  '3.PNG',
+  '4.PNG'
 ];
 
 //document.write(thema[a] + "<br>\n");
