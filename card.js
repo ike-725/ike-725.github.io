@@ -21,5 +21,6 @@ var thema=[
 
 
 var a = Math.floor(Math.random() * thema.length);
-document.write('<img src="thema[a]" />');
+document.write('<img src='+thema[a]+' />');
+//document.write('<img src="thema[a]" />');
 //document.write(thema[a]);
