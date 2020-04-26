@@ -20,4 +20,4 @@ var thema=[
 //document.write(thema[a] + "<br>\n");
 
 var a = Math.floor(Math.random() * thema.length);
-document.write(a);
+document.write(thema[a]);
