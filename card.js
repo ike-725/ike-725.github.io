@@ -21,3 +21,4 @@ var thema=[
 
 var a = Math.floor(Math.random() * thema.length);
 document.write(thema[a]);
+document.write("あ");
