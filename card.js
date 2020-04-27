@@ -18,3 +18,7 @@ function randomDraw(){
   obj.src = thema[a];
   //document.write('<img src='+thema[a]+' />');
 }
+
+//function rollCard{
+
+//}
