@@ -1,14 +1,5 @@
-var min = 0 ;
-var max = 4 ;
-
 //var a = Math.floor (Math.random() * ( max + 1 - min ) )  + min ;
-
-
 //console.log(a);
-
-//document.writeln("あなたが引いたカードは、、、");
-
-
 var thema=[
   'image/0.PNG',
   'image/1.PNG',
@@ -17,10 +8,13 @@ var thema=[
   'image/4.PNG'
 ];
 
-//document.write(thema[a] + "<br>\n");
+function randomDraw(){
+  var max=4;
+  var min=0;
 
-
-var a = Math.floor(Math.random() * thema.length);
-document.write('<img src='+thema[a]+' />');
-//document.write('<img src="thema[a]" />');
-//document.write(thema[a]);
+  //document.write("あ");
+  var obj = document.getElementById("random_card");
+  var a = Math.floor(Math.random() * thema.length);
+  obj.src = thema[a];
+  //document.write('<img src='+thema[a]+' />');
+}
