@@ -1,11 +1,11 @@
 //var a = Math.floor (Math.random() * ( max + 1 - min ) )  + min ;
 //console.log(a);
 var thema=[
-  'image/0.PNG',
-  'image/1.PNG',
-  'image/2.PNG',
-  'image/3.PNG',
-  'image/4.PNG'
+  'cardimage/0.PNG',
+  'cardimage/1.PNG',
+  'cardimage/2.PNG',
+  'cardimage/3.PNG',
+  'cardimage/4.PNG'
 ];
 
 function randomDraw(){
