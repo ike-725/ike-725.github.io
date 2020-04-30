@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="copyright" content="Copyright XSERVER Inc." />
+<meta name="robots" content="noindex,nofollow,noarchive" />
+<title>ラブドキ　カード</title>
+<script src="memory.js"></script>
+<style type="text/css">
+
+* {
+	margin : 0 ;
+	padding : 0 ; 
+	font-size : 100% ;
+}
+
+body {
+	font-size : 75% ;
+	text-align : center ;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3" ;
+	line-height : 1.4 ;
+}
+
+#res{
+width:500px;
+height:300px;
+text-align : center ;
+border:1px solid pink;
+border-radius:10px;
+}
+
+
+#panel{
+width:850px;
+height:600px;
+overflow:hidden;
+border:1px solid silver;
+border-radius:10px;
+}
+.card{
+width:80px;
+height:110px;
+line-height:110px;
+border:1px solid silver;
+border-radius:10px;
+text-align:center;
+font-size:26px;
+font-weight:bold;
+box-shadow:gray 2px 2px;
+background:white;
+float:left;
+cursor:pointer;
+}
+
+.back{
+background-image:url("pics/back.jpg");
+background-size:auto;
+}
+.finish{
+opacity:0;
+cursor:default;
+
+ 
+</style>
+</head>
+<body>
+<div id="res">
+<img id="res_img" src="pics/back_full.jpg" height="275" width="200"/>
+<br/>
+<input type="button" value="START / RESET" onclick="start()"/>
+</div>
+<div id="panel"></div>
+
+<br>
+<button type="button" name="indexbutton" value="reset"onclick="location.href='index.html'">はじめに戻る</button>
+
+
+</body>
+</html>
